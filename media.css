@@ -1,0 +1,170 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+header .navbar{
+    background-image: url(img/marvel.jpg);
+    background-color: red;
+   
+
+}
+.main{
+    background-image: url(img/fedora.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+   
+}
+
+
+/* media iron man*/
+.imgflottante{
+    float: left;
+    margin-right: 20px;
+    box-shadow: 5px 10px 10px #0e0d0d;
+
+    
+}
+
+.ironman{
+    padding-top: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.ironman p{
+    padding-left: 10px;
+}
+
+.ironman h2{
+    text-align: center;
+    margin-top: 15%;
+}
+
+/* media homer */
+
+.imgflottante2{
+    float: left;
+    box-shadow: 5px 10px 10px #0e0d0d;
+    margin-right: 20px;
+    height: 400px;
+    width: 400px;
+
+
+}
+.homer{
+    padding-top: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+div .homer p:nth-child(2){ 
+    
+        
+
+}
+.homer h2{
+    text-align: center;
+}
+
+/* media anonymous */
+
+.anonymous{
+    padding-top: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+.imgflottante3{
+    height: 400px;
+    width: 400px;
+    float: left;
+    margin-right: 20px;
+    box-shadow: 5px 10px 10px #0e0d0d;
+
+}
+.anonymous h2{
+    text-align: center;
+}
+
+/* media audio */
+
+.tiwa{
+    position: relative;
+    margin: auto 40%;
+    
+}
+.audio h2{
+    text-align: center;
+}
+
+.audio{
+    padding-top: 20px;
+}
+
+/* media videos */
+
+.gow{
+    padding-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+.rick{
+    padding-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.god{ width: 556px;}
+
+/* media maps */
+
+.maps{
+    margin-left: 30%;
+    margin-right: 20%;
+    padding-top: 30px;
+   
+}
+.maps h2{
+    text-align: center;
+}
+iframe{
+    margin-bottom: 20px;
+}
+
+/* navbar */
+
+ul{
+    list-style-type: none;
+    float: right;
+    margin-top: 20px;
+}
+ul li{
+    display: inline-block;
+    
+    
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid #fff;
+    transition: 0.7s ease;
+   
+}
+ul li a:hover{
+    background-color: #fff;
+    color: #000000;
+}
+ul li.active a{
+    background-color: #fff;
+    color: #000000;
+}
+.navbar{
+    max-width: 1300px;
+    margin: auto;
+    
+}
